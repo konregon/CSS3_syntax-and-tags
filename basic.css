@@ -285,18 +285,31 @@ ol{
 }
 
 /* 18. Tables
-
+    how make content in middle?
 */
+table, tr, td{
+    border: 2px solid black;
+    width: 100%;
+}
 
 /* 19. Display
     The display property specifies if or how an element can be displayed.
     Every HTML element has a default value depending on what type of element it is.
         The default display value for most elements is block or inline. 
+    Explore other properties......
 */
+li.display1{
+    display: inline;
+}
 
 /* 20. Max-Width
 
 */
+.max{
+    width: 800px;
+    margin: auto;
+    border: 3px solid black;
+}
 
 /* 21. Position
     The position property specifies the type of positioning method used for an element 
@@ -306,6 +319,53 @@ ol{
         absolute
         sticky
 */
+.static{
+    width: 500px;
+    height: 500px;
+    background: lime;
+    position: static;
+    border: 2.5px solid black;
+}
+.relative{
+    width: 500px;
+    height: 500px;
+    background: rgb(255, 115, 0);
+    position: relative;
+    left: 50px;
+    border: 2.5px solid black;
+}
+.fixed{
+    width: 75px;
+    height: 75px;
+    background: rgb(0, 89, 255);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2.5px solid black;
+}
+.absolute{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(132, 0, 255);
+    position: absolute;
+    right: 10px;
+    border: 2.5px solid black;
+}
+.sticky{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(255, 0, 21);
+    position: sticky;
+    top: 80px;
+    left: 600px;
+    border: 2.5px solid black;
+}
+.overlap{
+    width: 500px;
+    height: 500px;
+    background: black;
+    z-index: -2;
+}
 
 /* 22. Overflow
     The overflow property specifies whether to clip the content or to add scrollbar 
@@ -315,3 +375,10 @@ ol{
         hidden - The overflow is clipped and the rest of content will be invisible.
         scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content.
 */
+.overflow{
+    width: 500px;
+    height: 500px;
+    background: rgba(245, 220, 1, 0.308);
+    border: 2.5px solid black;
+    overflow: scroll;
+}
