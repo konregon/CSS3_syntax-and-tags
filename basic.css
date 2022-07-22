@@ -1,0 +1,20 @@
+/* 1. comments 
+    we can use comment to declare our indentation and it also help us iff we want to that code
+    in later dates.
+*/
+
+/* 2. Where to insert CSS
+    three ways:-
+        1.External CSS:- create css file outside and insert that into html doc via <script> tag.
+        2.Internal CSS:- inside <head> section with <style> tag.
+        3.Inline CSS:- to stylize any individual tag, does not require any spacial tag.
+*/
+
+/* 3. Syntax
+    any CSS syntax comprised of selector and declaration block
+    selector targets the elements we want to style,
+    declaration block is warped in { }
+        in that we have css declarations
+        Each declaration includes a CSS property name and a value, separated by a colon.
+        for example, width: 200px;
+*/
