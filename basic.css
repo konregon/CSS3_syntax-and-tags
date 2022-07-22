@@ -206,23 +206,43 @@ p#borders10{
     border: 5px solid lime;
     padding: 100px;
     margin: 100px;
-    
+
 }
 
 /* 12. Outline
    it is a line that is drawn around elements, OUTSIDE the border, to make the element "stand out" 
+   outside of border
 */
+p.outline{
+    border-style: double;
+    outline-style: dashed;
+}
 
 /* 13. Text
     CSS has a lot of properties for formatting text.
 */
+h1.text{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
 
 /* 14. Fonts
         In CSS, we use the font-family property to specify the font of a text.
+        we only want Global font family for website.
     The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between
     browsers/operating systems.  Start with the font you want, and end with a generic family (to let the browser pick a similar
     font in the generic family, if no other fonts are available).  The font names should be separated with a comma.
 */
+body{
+    /* font-family: sans-serif, monospace ; */
+    font-family: 'Roboto', sans-serif;
+
+}
+p.font1{
+    font-family: cursive;
+}
 
 /* 15. Icons
     Icons can easily be added to your HTML page, by using an icon library.
@@ -241,10 +261,28 @@ p#borders10{
         a:hover - a link when the user mouses over it
         a:active - a link the moment it is clicked
 */
+a:link{
+    color: green;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: orange;
+}
 
 /* 17. Lists
     The list-style-type property specifies the type of list item marker.
 */
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: lower-roman;
+}
 
 /* 18. Tables
 
