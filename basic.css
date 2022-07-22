@@ -143,5 +143,137 @@ p#borders10{
             margin-left
 */
 .margin{
+    background-color: black;
+    height: 500px;
+    width: 500px;
     margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 50px;
 }
+
+/* 9. Padding
+        padding is the space between an element’s border and the element’s content
+    the padding property controls the space inside an element.
+    padding is located inside the border of an element.
+        To create the gap, the padding either grows the element’s size or shrinks the content inside. 
+    By default, the size of the element increases. If you want to create the gap by shrinking the content, set the box-sizing 
+    property to border-box (i.e. box-sizing: border-box).
+        padding-top
+        padding-right
+        padding-bottom
+        padding-left
+*/
+.padding{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    padding-left: 0px;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+
+/* 10. height and width
+    The CSS height and width properties are used to set the height and width of an element.
+    i.e.To add an image in an HTML page, <img> tag is used. With that, we need to use the attributes 
+    height and width to set the height and width of the image in pixels.
+        length - Defines the height/width in px, cm.
+        % - Defines the height/width in percent of the containing block.
+        initial - Sets the height/width to its default value.
+        inherit - The height/width will be inherited from its parent value.
+*/
+.hw{
+    background-color: black;
+    height: 500px;
+    width: 500px;
+}
+
+/* 11. Box Model
+    In CSS, the term "box model" is used when talking about design and layout.
+        The CSS box model is essentially a box that wraps around every HTML element.
+    It consists of: margins, borders, padding, and the actual content.
+    Explanation of different parts in Box Model:
+        Content - The content of the box, where text and images appear
+        Padding - Clears an area around the content.  The padding is transparent
+        Border - A border that goes around the padding and content
+        Margin - Clears an area out the border. The margin is transparent
+        The box model allows us to add a border around elements and to define space between elements
+*/
+.boxmodel{
+    height: 500px;
+    width: 500px;
+    border: 5px solid lime;
+    padding: 100px;
+    margin: 100px;
+    
+}
+
+/* 12. Outline
+   it is a line that is drawn around elements, OUTSIDE the border, to make the element "stand out" 
+*/
+
+/* 13. Text
+    CSS has a lot of properties for formatting text.
+*/
+
+/* 14. Fonts
+        In CSS, we use the font-family property to specify the font of a text.
+    The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between
+    browsers/operating systems.  Start with the font you want, and end with a generic family (to let the browser pick a similar
+    font in the generic family, if no other fonts are available).  The font names should be separated with a comma.
+*/
+
+/* 15. Icons
+    Icons can easily be added to your HTML page, by using an icon library.
+    How to Add Icons
+        The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome.
+        Add the name of the specified icon class to any inline HTML element (like <i> or <span>)
+        All the icons in the icon libraries, are scalable vectors that can be customized with CSS (size, color, shadow)
+*/
+
+/* 16. Links
+    Links can be styled with any CSS property.
+    In addition, links can be styled differently depending on what state they are in.
+    The four link states are:
+        a:link - a normal, unvisited link
+        a:visited - a link the user has visited
+        a:hover - a link when the user mouses over it
+        a:active - a link the moment it is clicked
+*/
+
+/* 17. Lists
+    The list-style-type property specifies the type of list item marker.
+*/
+
+/* 18. Tables
+
+*/
+
+/* 19. Display
+    The display property specifies if or how an element can be displayed.
+    Every HTML element has a default value depending on what type of element it is.
+        The default display value for most elements is block or inline. 
+*/
+
+/* 20. Max-Width
+
+*/
+
+/* 21. Position
+    The position property specifies the type of positioning method used for an element 
+        static
+        relative
+        fixed
+        absolute
+        sticky
+*/
+
+/* 22. Overflow
+    The overflow property specifies whether to clip the content or to add scrollbar 
+    when the content of an element is too big to fit in the specified area.
+    The overflow property has the following values:
+        visible - Default The overflow is not clipped.  The content renders outside the elements box.
+        hidden - The overflow is clipped and the rest of content will be invisible.
+        scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content.
+*/
