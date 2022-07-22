@@ -18,3 +18,130 @@
         Each declaration includes a CSS property name and a value, separated by a colon.
         for example, width: 200px;
 */
+
+/* 4. Selectors
+    we have five categories of selectors:
+        1. Simple selector(elements based on name, id. class)
+            1.element
+                h1{}
+                p{}
+            2.id
+                #name_of_id{}
+                #blue{}
+                #redBox{}
+            3.class
+                .class_name{}
+                .leftHeader{}
+                .roller{}
+        2. Combinator selectors
+
+        3. Pseudo-class selectors
+
+        4.Pseudo-elements selectors
+
+        5.Attribute selectors
+
+*/
+h2{
+    color: goldenrod;
+}
+#paragraphid{
+    color: green;
+    font-size: larger;
+}
+.classstyle{
+    color: aqua;
+}
+
+/* 5.Colors
+    they are specified using Predefined color name, or RGB, HEX, HSL, RGBA, HSLA values. 
+*/
+h1#color1{
+    color: blue;
+}
+h1#rgb{
+    color: rgb(10, 200, 0);
+}
+h1#hex{
+    color: #ff55ff;
+}
+h1#hsl{
+color: hsl(10, 10, 100);}
+
+/* 6.Backgrounds
+    background properties are used to add various background effects for elements.    
+*/
+h1#background{
+    background-color: #ff55ff;
+    background: fixed;
+    background-image: none;
+    background-position: ;
+    background-repeat: no-repeat;
+}
+
+/* 7. Borders
+    Border properties allow us to specify the style, width and color elements border.
+        1.dotted - Defines a dotted border
+        2.dashed - Defines a dashed border
+        3.solid - Defines a solid border
+        4.double - Defines a double border
+        5.groove - Defines a 3D grooved border.  The effect depends on the border-color value
+        6.ridge - Defines a 3D ridged border.  The effect depends on the border-color value
+        7.inset - Defines a 3D inset border.  The effect depends on the border-color value
+        8.outset - Defines a 3D outset border.  The effect depends on the border-color value
+        9.none - Defines no border
+        10.hidden - Defines a hidden border
+*/
+p#borders1{
+    border-style: dashed;
+}
+p#borders2{
+    border-style: dotted;
+}
+p#borders3{
+    border-style: double;
+}
+p#borders4{
+    border-style: groove;
+    border-color: tomato;
+}
+p#borders5{
+    border-style: hidden;
+    border-color: tomato;
+}
+p#borders6{
+    border-style: inherit;
+}
+p#borders7{
+    border-style: initial;
+}
+p#borders8{
+    border-style: inset;
+    border-color: tomato;
+}
+p#borders9{
+    border-style: outset;
+    border-color: tomato;
+}
+p#borders10{
+    border-style: ridge;
+    border-color: tomato;
+}
+
+/* 8. Margins
+        a margin is the space around an element’s border
+    Put another way, the margin property controls the space outside an element
+    the margin “pushes away” its neighbors elements.
+    All margin properties can have the following values:
+        auto - the browser calculates the Margins
+        length - specifies a margin in px, pt, cm
+        % - specifies a margin in % of the width of the containing element
+        inherit - specifies that the margin should be inherited from the parent element
+            margin-top
+            margin-right
+            margin-bottom
+            margin-left
+*/
+.margin{
+    margin-top: 50px;
+}
