@@ -5,7 +5,7 @@
 
 /* 2. Where to insert CSS
     three ways:-
-        1.External CSS:- create css file outside and insert that into html doc via <script> tag.
+        1.External CSS:   - create css file outside and insert that into html doc via <script> tag.
         2.Internal CSS:- inside <head> section with <style> tag.
         3.Inline CSS:- to stylize any individual tag, does not require any spacial tag.
 */
@@ -299,9 +299,11 @@ table, tr, td{
     Explore other properties......
 */
 li.display1{
-    display: inline;
+    display: block;
 }
-
+p.dis1{
+    display: block;
+}
 /* 20. Max-Width
 
 */
@@ -376,8 +378,8 @@ li.display1{
         scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content.
 */
 .overflow{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     background: rgba(245, 220, 1, 0.308);
     border: 2.5px solid black;
     overflow: scroll;
