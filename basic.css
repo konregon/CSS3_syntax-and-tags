@@ -459,7 +459,6 @@ p.dis1{
     background: maroon;
     border: 2px solid yellowgreen;
     margin: auto;
-
 }
 
 /*  26. Combinator
@@ -472,6 +471,15 @@ p.dis1{
         3. adjacent sibling selector (+)
         4. general sibling selector (~)
 */
+.pera1 p{
+    background: orange;
+}
+.pera2 > p{
+    background: dodgerblue;
+}
+.pera3 ~ p{
+    background: yellowgreen;
+}
 
 /*  27. Pseudo Class
     Pseudo-classes can be combined with CSS classes.
