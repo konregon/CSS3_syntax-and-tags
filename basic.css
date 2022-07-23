@@ -581,6 +581,36 @@ div.desc {
     The [attribute] selector is used to select elements with a specified attribute.
 */
 
+/* 35. Forms
+    we can style form with CSS
+*/
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    background: darkgreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background: dodgerblue;
+}
+.form{
+    border-radius: 5px;
+    background: #f2f2f2;
+    padding: 20px;
+}
+
 /* 36. Counters
     CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules.
     Counters let you adjust the appearance of content based on its placement in the document.
