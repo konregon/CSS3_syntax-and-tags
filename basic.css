@@ -528,6 +528,7 @@ p.dis1{
 }
 
 /* 31. Dropdown
+    use OTHER Methods
     Use CSS to create a dropdown
 */
 .dropdown{
@@ -546,16 +547,37 @@ p.dis1{
 }  
 
 /* 32. Image Gallery
+
     CSS can be used to create an image gallery
 */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
 
 /* 33. Image Sprites
     An image sprite is a collection of images put into a single image.
     A web page with many images can take a long time to load and generates multiple server requests.
     Using image sprite will reduce the number of server requests and save bandwidth.
+
+    We mainly use SVG now
 */
 
-/* 34. Attr Selectors
+
+/* 34. Attribute Selectors
     The [attribute] selector is used to select elements with a specified attribute.
 */
 
