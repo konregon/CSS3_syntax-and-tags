@@ -357,7 +357,7 @@ p.dis1{
     width: 500px;
     height: 500px;
     background-color: rgb(255, 0, 21);
-    position: sticky;
+    /* position: sticky; */
     top: 80px;
     left: 600px;
     border: 2.5px solid black;
@@ -390,6 +390,34 @@ p.dis1{
     The CSS clear property specifies what elements can float beside 
     the cleared element and on which side.
 */
+.float1{
+    width: 500px;
+    height: 100px;
+    background: tomato;
+    border: 2.5px solid black;
+    float: right;
+}
+.float2{
+    width: 500px;
+    height: 100px;
+    background: tomato;
+    border: 2.5px solid black;
+    float: left;
+}
+.float3{
+    width: 500px;
+    height: 100px;
+    background: tomato;
+    border: 2.5px solid black;
+    float: none;
+}
+.float4{
+    width: 500px;
+    height: 100px;
+    background: tomato;
+    border: 2.5px solid black;
+    float: inline-end;
+}
 
 /* 24. Inline-Block
     Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
