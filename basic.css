@@ -498,9 +498,13 @@ p.dis1{
 .hover:hover{
     background: blueviolet;
 }
+
 /*  28. Pseudo element
     A CSS pseudo-element is used to style specified parts of an element.
 */
+.pseEle p::first-line{
+    color: red;
+}
 
 /* 29. Opacity
     The opacity property specifies the opacity/ transparency of an element
