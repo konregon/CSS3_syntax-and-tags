@@ -484,7 +484,20 @@ p.dis1{
 /*  27. Pseudo Class
     Pseudo-classes can be combined with CSS classes.
 */
-
+.hover{
+    background: darkgrey;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.hover p{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;}
+.hover:hover{
+    background: blueviolet;
+}
 /*  28. Pseudo element
     A CSS pseudo-element is used to style specified parts of an element.
 */
