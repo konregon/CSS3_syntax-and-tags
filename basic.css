@@ -646,3 +646,7 @@ input[type=submit]:hover{
     In face, if you use the !important rule, it will override ALL previous styling rules for that
     specific property on that element!
 */
+p.important{
+    background: red;
+    background: darkolivegreen!important;
+}
