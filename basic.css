@@ -425,6 +425,30 @@ p.dis1{
     Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so
     the element can sit next to other elements.
 */
+.a{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid blue;
+    background: yellow;
+}
+.b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background: #ff55ff;
+}
+.c{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid black;
+    background: #07e425;
+}
 
 /*  25. Align
     Use CSS to align the content
