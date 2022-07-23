@@ -509,6 +509,15 @@ p.dis1{
 /* 29. Opacity
     The opacity property specifies the opacity/ transparency of an element
 */
+#googleLogo{
+    opacity: 0.5;
+}
+#googleLogo:hover{
+    opacity: 1;
+}
+#googleLogo1:hover{
+    opacity: 0.7;
+}
 
 /* 30. Navigation Bar
     Use CSS to create Navigation Bar
