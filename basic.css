@@ -530,6 +530,20 @@ p.dis1{
 /* 31. Dropdown
     Use CSS to create a dropdown
 */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    width: 500px;
+    position: absolute;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
 
 /* 32. Image Gallery
     CSS can be used to create an image gallery
