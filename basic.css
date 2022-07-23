@@ -520,8 +520,12 @@ p.dis1{
 }
 
 /* 30. Navigation Bar
+    If possible, always use <NAV> tag
     Use CSS to create Navigation Bar
 */
+.navebar li{
+    display: inline;
+}
 
 /* 31. Dropdown
     Use CSS to create a dropdown
