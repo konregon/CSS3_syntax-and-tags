@@ -382,5 +382,103 @@ p.dis1{
     height: 300px;
     background: rgba(245, 220, 1, 0.308);
     border: 2.5px solid black;
-    overflow: scroll;
+    overflow: scroll ;
 }
+
+/* 23. Float 
+    The CSS float property specifies how an element should float.
+    The CSS clear property specifies what elements can float beside 
+    the cleared element and on which side.
+*/
+
+/* 24. Inline-Block
+    Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+    Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+    Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so
+    the element can sit next to other elements.
+*/
+
+/*  25. Align
+    Use CSS to align the content
+*/
+
+/*  26. Combinator
+    A combinator is something that explains the relationship between the selectors.
+    A CSS selector can contain more than one simple selector.  Between the simple selectors,
+    we can include a combinator.
+    There are four different combinator in CSS:
+        1. descendant selector (space)
+        2. child selector (>)
+        3. adjacent sibling selector (+)
+        4. general sibling selector (~)
+*/
+
+/*  27. Pseudo Class
+    Pseudo-classes can be combined with CSS classes.
+*/
+
+/*  28. Pseudo element
+    A CSS pseudo-element is used to style specified parts of an element.
+*/
+
+/* 29. Opacity
+    The opacity property specifies the opacity/ transparency of an element
+*/
+
+/* 30. Navigation Bar
+    Use CSS to create Navigation Bar
+*/
+
+/* 31. Dropdown
+    Use CSS to create a dropdown
+*/
+
+/* 32. Image Gallery
+    CSS can be used to create an image gallery
+*/
+
+/* 33. Image Sprites
+    An image sprite is a collection of images put into a single image.
+    A web page with many images can take a long time to load and generates multiple server requests.
+    Using image sprite will reduce the number of server requests and save bandwidth.
+*/
+
+/* 34. Attr Selectors
+    The [attribute] selector is used to select elements with a specified attribute.
+*/
+
+/* 36. Counters
+    CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules.
+    Counters let you adjust the appearance of content based on its placement in the document.
+*/
+
+/* 37. Website Layout
+    A website is often divided into headers, menus, content and a footer.
+    Header - A header is usually located at the top of the website.
+    Navigation Bar - A navigation bar contains a  list of links to help visitors navigating through your website.
+    Check Project Files for Website Layout Example.
+*/
+
+/* 38. Units
+    CSS has several different units for expressing a length.
+    Many CSS properties take "length" values, such as width, margin, padding, font-size
+    Length is a number followed by a length unit, such as 10px, 2em.
+*/
+
+/* 39. Specificity
+    If there are two or more conflicting CSS rules that point to the same element, the browser follows some rule to determine
+    which one is most specific and therefore wins out.
+    Think of specificity as a score/rank that determines which style declarations are ultimately applied to an element.
+    The universal selector (*) has low specificity, while ID selectors are highly specific!
+    Every selector has its place in the specificity hierarchy.  There are four categories which define the specificity level of a selector:
+    Inline Styles - An inline style is attached directly to the element to be styled.
+    IDs - An ID is a unique identifier for the page elements, such as #navbar.
+    Classes, attributes and pseudo-classes - This category includes .classes, [attributes] and pseudo-classes such as :hover, :focus
+    Elements and pseudo-elements - This category includes element names and pseudo-elements, such as h1, div, :before and :after.
+*/
+
+/* 40. !important
+    The !important rule in CSS is used to add more importance to a property value than normal.
+    In face, if you use the !important rule, it will override ALL previous styling rules for that
+    specific property on that element!
+*/
