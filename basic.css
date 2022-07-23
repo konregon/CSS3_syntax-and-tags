@@ -453,6 +453,14 @@ p.dis1{
 /*  25. Align
     Use CSS to align the content
 */
+.align{
+    width: 50%;
+    height: 500px;
+    background: maroon;
+    border: 2px solid yellowgreen;
+    margin: auto;
+
+}
 
 /*  26. Combinator
     A combinator is something that explains the relationship between the selectors.
