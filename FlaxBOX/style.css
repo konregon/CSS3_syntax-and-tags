@@ -1,0 +1,102 @@
+h2{
+    color: darkorange;
+}
+
+/* FlexBox 
+    Before the Flexbox Layout module, there were four layout modes:
+        Block, for sections in a webpage    
+        Inline, for text
+        Table, for two-dimensional table data
+        Positioned, for explicit position of an element
+    The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+*/
+.flex-container{
+    display: flex;
+    background: dodgerblue;
+}
+.flex-container > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Flex Container
+    Parent Element (Container)
+    Like we specified in the previous chapter, 
+    this is a flex container (the blue area) with three flex items:
+*/
+.flex-container2{
+    flex-direction: column;
+    display: flex;
+    background: dodgerblue;
+}
+.flex-container2 > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container3{
+    flex-direction: row;
+    display: flex;
+    background: dodgerblue;
+}
+.flex-container3 > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container4{
+    flex-direction: column-reverse;
+    display: flex;
+    background: dodgerblue;
+}
+.flex-container4 > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container6{
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-start; */
+    background: dodgerblue;
+}
+.flex-container6 > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container7{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    background: dodgerblue;
+}
+.flex-container7 > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+.flex-container8 > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Flex Items 
+    The direct child elements of a flex container automatically becomes flexible (flex) items.
+*/
