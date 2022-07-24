@@ -1,5 +1,5 @@
 h2{
-    color: goldenrod;
+    color: darkorange;
 }
 /* 1. Rounded Corners
     The CSS "border-radius" property defines the radius of an element's corners.
@@ -44,4 +44,43 @@ h2{
     border: 10px solid transparent;
     padding: 50px;
     border-image: url(images/Screenshot\ \(17\).png) 30% round;
+}
+
+/* 3. Gradients 
+    CSS gradients let you display smooth transitions between two or more specified colors.
+    CSS defines three types of gradients:
+        Linear Gradients (goes down/up/left/right/diagonally)
+        Radial Gradients (defined by their center)
+        Conic Gradients (rotated around a center point)
+*/
+.gradient1{
+    height: 200px;
+    /* background-color: red; */
+    background-image: linear-gradient(yellow, orange);
+}
+.gradint2{
+    height: 200px;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, dodgerblue, green);
+}
+.gradint3{
+    height: 200px;
+    background-image: linear-gradient(to bottom right, pink, blue);
+}
+.gradint4{
+    height: 200px;
+    background-image: linear-gradient(red, yellow, green);
+}
+
+/* 4.Shadows 
+    The CSS text-shadow property applies shadow to text.
+    The CSS box-shadow property is used to apply one or more shadows to an element.
+*/
+#textShadow{
+    text-shadow: 2px 2px 5px rgb(0, 102, 255);
+}
+.boxShadow{
+    height: 100px;
+    background: yellowgreen;
+    box-shadow: 7px 7px green;
 }
