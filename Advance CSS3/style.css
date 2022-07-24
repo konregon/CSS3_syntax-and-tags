@@ -102,3 +102,38 @@ h2{
 .transition:hover{
     width: 300px;
 }
+
+/* 6.Animation 
+    CSS allows animation of HTML elements without using JavaScript or Flash!
+        @keyframes
+        animation-name
+        animation-duration
+        animation-delay
+        animation-iteration-count
+        animation-direction
+        animation-timing-function
+        animation-fill-mode
+        animation
+*/
+.animation{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-name: first;
+    animation-duration: 10s;
+}
+@keyframes first{
+    from {background: green;}
+    to {background: dodgerblue;}
+}
+.animation2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation-duration: 10s;
+    animation-name: second;
+}
+@keyframes second{
+    from {background: black;}
+    to {background: yellow;}
+}
