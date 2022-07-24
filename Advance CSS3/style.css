@@ -2,7 +2,7 @@ h2{
     color: goldenrod;
 }
 /* 1. Rounded Corners
-    The CSS border-radius property defines the radius of an element's corners.
+    The CSS "border-radius" property defines the radius of an element's corners.
 */
 #rcorners1 {
     border-radius: 25px;
@@ -22,10 +22,26 @@ h2{
   
   #rcorners3 {
     border-radius: 25px;
-    background: url(paper.gif);
+    background: url(images/Screenshot\ \(15\).png);
     background-position: left top;
     background-repeat: repeat;
     padding: 20px; 
     width: 200px;
     height: 150px;  
   }
+.borderRadius{
+    width: 200px;
+    height: 100px;
+    background: dodgerblue;
+    border-radius: 25px;
+}
+
+/* 2.Border Image
+    The CSS border-image property allows you to specify an image to be used 
+    instead of the normal border around an element.
+*/
+#borderImg{
+    border: 10px solid transparent;
+    padding: 50px;
+    border-image: url(images/Screenshot\ \(17\).png) 30% round;
+}
