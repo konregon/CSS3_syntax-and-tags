@@ -99,4 +99,47 @@ h2{
 
 /* Flex Items 
     The direct child elements of a flex container automatically becomes flexible (flex) items.
+    The flex item properties are:
+        order
+        flex-grow
+        flex-shrink
+        flex-basis
+        flex
+        align-self
 */
+.flexItemOrder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+.flexItemOrder > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flexItemGrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+.flexItemGrow > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
+.flexOrderShrink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+.flexOrderShrink > div{
+    background: #f1f1f1;
+    margin: 18px;
+    padding: 20px;
+    font-size: 30px;
+}
