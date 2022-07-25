@@ -131,15 +131,27 @@ h2{
     padding: 20px;
     font-size: 30px;
 }
-.flexOrderShrink{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: dodgerblue;
+* {
+    box-sizing: border-box;
 }
-.flexOrderShrink > div{
-    background: #f1f1f1;
-    margin: 18px;
-    padding: 20px;
+.FlexResponsive{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 30px;
+    text-align: center;
+}
+.flexItemLeft{
+    background: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+}
+.flexItemRight{
+    background: green;
+    padding: 10px;
+    flex: 50%;
+}
+@media (max-width: 800px ){
+    .flexItemRight, .flexItemLeft{
+        flex: 100%;
+    }
 }
