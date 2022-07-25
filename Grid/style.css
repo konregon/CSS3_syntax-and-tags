@@ -15,3 +15,24 @@
     font-size: 30px;
     text-align: center;
 }
+
+/*  Grid Container
+The grid-template-columns property defines the number of columns in your grid layout, and it can define the width of each column.
+The value is a space-separated-list, where each value defines the width of the respective column.
+If you want your grid layout to contain 4 columns, specify the width of the 4 columns, or "auto" if all columns should have the same width.
+*/
+.grid-container2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 120px 200px;
+    background: lightblue;
+    padding: 10px;
+}
+.grid-container2 .grid-items{
+    background: dodgerblue;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
