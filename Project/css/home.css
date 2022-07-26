@@ -4,6 +4,17 @@
 ====================================================================================================================================================================
 */
 
+section#content{
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+img#slide{
+    width: 100%;
+    height: auto;
+}
 
 
 /*
@@ -19,6 +30,38 @@
 ====================================================================================================================================================================
 */
 
+.course{
+    width: 400ox;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1244px;
+    left: 400px;
+}
+
+.course2{
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1244px;
+    left: 850px;
+}
+
+.course3{
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1244px;
+    left: 1300px;
+}
+h6{
+    font-size: 1em;
+}
 
 
 /*
