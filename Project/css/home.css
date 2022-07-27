@@ -142,6 +142,45 @@ div.content {
 ====================================================================================================================================================================
 */
 
+div.learntechnow {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2500px;
+    left: 400px;
+}
+
+div.learntechpodcast {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2500px;
+    left: 850px;
+}
+
+div.learntechblog {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 2500px;
+    left: 1300px;
+}
+
+.h1lt {
+
+    position: absolute;
+    top: 2320px;
+    left: 614px;
+
+}
+
+
 /*
 ====================================================================================================================================================================
                                                     Start Footer
